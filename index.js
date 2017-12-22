@@ -21,7 +21,7 @@ process.stdin.on('readable', function() {
             case ('/time'):
                 timeFormat.print();
                 break;
-            case ('/getOSinfo'):        `   `
+            case ('/getOSinfo'):
                 OSinfo.print();
                 break;
             default:
